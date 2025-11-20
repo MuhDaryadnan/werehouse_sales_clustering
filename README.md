@@ -1,13 +1,16 @@
 #  Warehouse Sales Clustering
 This repository contains a notebook for clustering products based on monthly sales patterns using Warehouse & Retail Sales data. The workflow includes data preprocessing, time-series panel construction, feature transformation, optimal cluster selection, and PCA-based visualization.
+
 ---
-# Description 
+## Description 
 The notebook processes retail and warehouse sales data, reshapes it into a monthly time-series per product, and applies clustering to identify groups of products with similar sales behavior.
 K-Means is used as the main clustering algorithm, while PCA is used for 2-dimensional visualization.
+
 ---
-# Project Motivation / Problem Statement
+## Project Motivation / Problem Statement
 Retail and warehouse environments often manage hundreds of products with unpredictable and inconsistent sales patterns. Treating all products equally leads to inefficient inventory planning, poor forecasting, and missed business opportunities.
 This project aims to identify groups of products with similar monthly sales behavior using clustering, enabling better segmentation, inventory strategies, and data-driven decision-making.
+
 ---
 
 ## Dataset
